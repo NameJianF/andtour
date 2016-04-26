@@ -239,7 +239,7 @@ $(document).ready(function () {
         });
     });
 
-    $('.portfolio .filter li a').click(function () {
+    $('.portfolio .filter a').click(function () {
 
         $('.portfolio .filter li a').removeClass('active');
         $(this).addClass('active');
